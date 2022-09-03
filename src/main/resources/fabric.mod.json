@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "name": "Trap Client",
+  "id": "trap-client",
+  "version": "${version}",
+  "description": "Based utility mod.",
+  "authors": [
+    "Vince",
+    "SYS"
+
+  ],
+  "contact": {
+    "homepage": "https://vincedev.se",
+    "discord": "https://discord.gg/trir"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/trap-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "vince.syshax.SYSHax"
+    ]
+  },
+  "mixins": [
+    "trap-client.mixins.json",
+    "trap-client-baritone.mixins.json",
+    "trap-client-indigo.mixins.json",
+    "trap-client-sodium.mixins.json",
+    "trap-client-canvas.mixins.json"
+  ],
+  "accessWidener": "trap-client.accesswidener",
+  "custom": {
+    "trap-client:devbuild": "${devbuild}",
+    "trap-client:color": "145,61,226",
+    "trap-client:commit": "${commit}",
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/trir"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.1",
+    "fabricloader": ">=0.14.8"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "feather": "*",
+    "origins": "*",
+    "wurst": "*"
+  }
+}

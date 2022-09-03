@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "vince.syshax.mixin.indigo",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "vince.syshax.MixinPlugin",
+  "client": [
+    "AbstractQuadRendererMixin",
+    "TerrainRenderContextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
