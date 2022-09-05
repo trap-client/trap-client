@@ -50,7 +50,7 @@ The [Fabric Team](https://github.com/FabricMC) for [Fabric](https://github.com/F
 
 The [Meteor Team](https://github.com/meteordevelopment) for [Meteor](https://github.com/MeteorDevelopment/meteor-client)
 
-The [AntiCope Team(https://github.com/AntiCope) for [Meteor-rejects](https://github.com/AntiCope/meteor-rejects)
+The [AntiCope Team](https://github.com/AntiCope) for [Meteor-rejects](https://github.com/AntiCope/meteor-rejects)
 
 
 ## Licensing
