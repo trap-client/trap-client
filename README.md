@@ -14,12 +14,12 @@
 Meteor mods dont work with trap client, Mod Developers if you want to port your mod to trap client
 A tutorial will be out soon!
 
-Difference between traphax and SYSHax
-TrapHax/TrapClient and SYSHax are the Same client, We Just like both names,
+
 
 ## Faq
 "Can you add This Feature/Module?", If you have a suggestion you can submit it [Here](https://github.com/vincelmfao/trap-client/issues) -
 Be sure to use the Enhancement label, You may also put suggestions in our discord server!.
+
 "What is the Difference between traphax and SYSHax?" TrapHax/TrapClient and SYSHax are the Same client, We Just like both names,
 
 
