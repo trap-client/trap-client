@@ -446,7 +446,6 @@ public class Modules extends System<Modules> {
         add(new AntiAFK());
         add(new AntiLevitation());
         add(new AntiVoid());
-        add(new NoFallPlus());
         add(new AutoJump());
         add(new AutoWalk());
         add(new Blink());
@@ -482,7 +481,6 @@ public class Modules extends System<Modules> {
         add(new BetterTooltips());
         add(new BlockSelection());
         add(new BossStack());
-        add(new NewChunks());
         add(new Breadcrumbs());
         add(new BreakIndicators());
         add(new CameraTweaks());
@@ -507,7 +505,6 @@ public class Modules extends System<Modules> {
         add(new TimeChanger());
         add(new Tracers());
         add(new Trail());
-        add(new SkeletonESP());
         add(new Trajectories());
         add(new UnfocusedCPU());
         add(new VoidESP());
@@ -568,7 +565,6 @@ public class Modules extends System<Modules> {
         add(new Spam());
         add(new ServerSpoof());
         add(new InventoryTweaks());
-        add(new ChatBot());
     }
 
     public static class ModuleRegistry extends Registry<Module> {
