@@ -10,7 +10,9 @@
     
 </div>
 
-## Usage
+
+Meteor mods dont work with trap client, Mod Developers if you want to port your mod to trap client
+A tutorial will be out soon!
 
 ### Building
 - Clone this repository
