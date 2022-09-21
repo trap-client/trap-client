@@ -544,6 +544,7 @@ public class Modules extends System<Modules> {
         add(new Nuker());
         add(new ChestAura());
         add(new AntiVanish());
+        add(new AutoCraft());
         add(new StashFinder());
         add(new SpawnProofer());
         add(new Timer());
