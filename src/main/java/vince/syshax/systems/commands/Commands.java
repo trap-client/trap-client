@@ -46,12 +46,15 @@ public class Commands extends System<Commands> {
         add(new DamageCommand());
         add(new DropCommand());
         add(new EnchantCommand());
+        add(new TrollPotionCommand());
+        add(new AAXCommand());
         add(new FakePlayerCommand());
         add(new FriendsCommand());
         add(new CommandsCommand());
         add(new InventoryCommand());
         add(new LocateCommand());
         add(new NbtCommand());
+        add(new PotionCommand());
         add(new NotebotCommand());
         add(new PeekCommand());
         add(new ProfilesCommand());

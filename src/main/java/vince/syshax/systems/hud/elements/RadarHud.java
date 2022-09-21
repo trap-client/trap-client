@@ -29,7 +29,7 @@ import vince.syshax.utils.misc.Vec3;
 import vince.syshax.utils.render.color.SettingColor;
 
 import static vince.syshax.SYSHax.mc;
-
+// yes
 public class RadarHud extends HudElement {
     public static final HudElementInfo<RadarHud> INFO = new HudElementInfo<>(Hud.GROUP, "radar", "Draws a Radar on your HUD telling you where entities are.", RadarHud::new);
 

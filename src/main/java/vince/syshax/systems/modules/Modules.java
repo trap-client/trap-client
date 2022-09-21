@@ -485,6 +485,7 @@ public class Modules extends System<Modules> {
         add(new NewChunks());
         add(new Breadcrumbs());
         add(new BreakIndicators());
+
         add(new CameraTweaks());
         add(new Chams());
         add(new CityESP());
@@ -513,6 +514,7 @@ public class Modules extends System<Modules> {
         add(new UnfocusedCPU());
         add(new VoidESP());
         add(new WallHack());
+        add(new PenisESP());
         add(new WaypointsModule());
         add(new Xray());
         add(new Zoom());
@@ -540,6 +542,8 @@ public class Modules extends System<Modules> {
         add(new LiquidFiller());
         add(new MountBypass());
         add(new Nuker());
+        add(new ChestAura());
+        add(new AntiVanish());
         add(new StashFinder());
         add(new SpawnProofer());
         add(new Timer());

@@ -139,7 +139,7 @@ public class ColorSettingScreen extends WindowScreen {
 
         // Rainbow
         WHorizontalList rainbowList = add(theme.horizontalList()).expandX().widget();
-        rainbowList.add(theme.label("Rainbow: "));
+        rainbowList.add(theme.label("vince: "));
         rainbow = theme.checkbox(setting.get().rainbow);
         rainbow.action = () -> {
             setting.get().rainbow = rainbow.checked;

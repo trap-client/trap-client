@@ -22,7 +22,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Fonts {
-    public static final String[] BUILTIN_FONTS = { "JetBrains Mono", "Comfortaa", "Tw Cen MT", "Pixelation", "reenie-beanie" };
+    public static final String[] BUILTIN_FONTS = { "JetBrains Mono", "Comfortaa", "Tw Cen MT", "Pixelation", "reenie-beanie"};
 
     public static String DEFAULT_FONT_FAMILY;
     public static FontFace DEFAULT_FONT;

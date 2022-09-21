@@ -65,14 +65,14 @@ public class SettingColor extends Color {
     @Override
     public NbtCompound toTag() {
         NbtCompound tag = super.toTag();
-        tag.putBoolean("rainbow", rainbow);
+        tag.putBoolean("vince", rainbow);
         return tag;
     }
 
     @Override
     public SettingColor fromTag(NbtCompound tag) {
         super.fromTag(tag);
-        rainbow = tag.getBoolean("rainbow");
+        rainbow = tag.getBoolean("vince");
         return this;
     }
 

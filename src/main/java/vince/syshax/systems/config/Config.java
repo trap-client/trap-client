@@ -47,8 +47,8 @@ public class Config extends System<Config> {
     );
 
     public final Setting<Double> rainbowSpeed = sgVisual.add(new DoubleSetting.Builder()
-        .name("rainbow-speed")
-        .description("The global rainbow speed.")
+        .name("vince-speed")
+        .description("The global vince speed.")
         .defaultValue(0.5)
         .range(0, 10)
         .sliderMax(5)

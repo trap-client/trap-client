@@ -99,8 +99,8 @@ public class ActiveModulesHud extends HudElement {
     );
 
     private final Setting<Double> rainbowSpeed = sgGeneral.add(new DoubleSetting.Builder()
-        .name("rainbow-speed")
-        .description("Rainbow speed of rainbow color mode.")
+        .name("vince-speed")
+        .description("vince speed of rainbow color mode.")
         .defaultValue(0.05)
         .sliderMin(0.01)
         .sliderMax(0.2)
@@ -110,8 +110,8 @@ public class ActiveModulesHud extends HudElement {
     );
 
     private final Setting<Double> rainbowSpread = sgGeneral.add(new DoubleSetting.Builder()
-        .name("rainbow-spread")
-        .description("Rainbow spread of rainbow color mode.")
+        .name("vince-spread")
+        .description("vince spread of vince color mode.")
         .defaultValue(0.01)
         .sliderMin(0.001)
         .sliderMax(0.05)
@@ -121,7 +121,7 @@ public class ActiveModulesHud extends HudElement {
     );
 
     private final Setting<Double> rainbowSaturation = sgGeneral.add(new DoubleSetting.Builder()
-        .name("rainbow-saturation")
+        .name("vince-saturation")
         .defaultValue(1.0d)
         .sliderRange(0.0d, 1.0d)
         .visible(() -> colorMode.get() == ColorMode.Rainbow)
@@ -129,7 +129,7 @@ public class ActiveModulesHud extends HudElement {
     );
 
     private final Setting<Double> rainbowBrightness = sgGeneral.add(new DoubleSetting.Builder()
-        .name("rainbow-brightness")
+        .name("vince-brightness")
         .defaultValue(1.0d)
         .sliderRange(0.0d, 1.0d)
         .visible(() -> colorMode.get() == ColorMode.Rainbow)

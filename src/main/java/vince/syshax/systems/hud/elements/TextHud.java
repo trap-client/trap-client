@@ -147,6 +147,9 @@ public class TextHud extends HudElement {
     }
 
     private void recompile() {
+        // PLEASE HELP ME I WANT TO DIE
+        // thiss is the cause of it all i cant remove
+        // Fuck you meteor
         firstTick = true;
         needsCompile = true;
     }
@@ -164,6 +167,7 @@ public class TextHud extends HudElement {
         if (section != null) {
             String str = section.toString();
             if (!str.isBlank()) width = renderer.textWidth(str, shadow.get(), getScale());
+            return;
         }
 
         if (width != 0) {
