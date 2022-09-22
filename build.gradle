@@ -131,19 +131,4 @@ publishing {
         }
     }
 
-    repositories {
-        maven {
-            name = "meteor-maven"
-            url = project.hasProperty("devbuild") ? "https://maven.meteordev.org/snapshots" : "https://maven.meteordev.org/releases"
-
-            credentials {
-                username = System.getenv("MAVEN_METEOR_ALIAS")
-                password = System.getenv("MAVEN_METEOR_TOKEN")
-            }
-
-            authentication {
-                basic(BasicAuthentication)
-            }
-        }
-    }
-}
+  
