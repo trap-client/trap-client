@@ -34,9 +34,29 @@ public class SplashTextResourceSupplierMixin {
     private static List<String> getMeteorSplashes() {
         return Arrays.asList(
                 "§dAstolfo§r Is Hot!",
-                "§4SYS§r is hot!",
+                "§4Trir§r is hot!",
                 "§dTraps§r are hot.",
-                "§dVince§r Productions!"
+                "§dVince Productions!",
+                "§dLol IMAGINE",
+                "§dKurwa",
+                "§5Meteor Fork",
+                "§dDont Vape!",
+                "§dBort Med Borås - Vince",
+                "§4Start Fapping To Guys Faster Win Rate - Trir",
+                "Sigma HATAR?",
+                "§2Jesse we need to cook",
+                "§bWalter put your dick away walter",
+                "§bIm not having sex with you right now walter",
+                "§2I am the one who knocks",
+                "§9Club Penguin is kil",
+                "§6The Bird is the word",
+                "§9Слава§r §eУкраїні",
+                "§9hacks:gethacks() - JollyC",
+                "§dSkriv här för att söka - Vince's Computer",
+                "§4Overclocked Your Ram to 69000 Megashits per second",
+                "§4Gta Sex mod"
+               
+                 
 
         );
     }
