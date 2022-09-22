@@ -23,13 +23,13 @@ function send(version, number) {
         for (let i in res.data.commits) {
             let commit = res.data.commits[i];
 
-            changes += "\n- [`" + commit.sha.substring(0, 7) + "`](https://github.com/MeteorDevelopment/meteor-client/commit/" + commit.sha + ") *" + commit.commit.message + "*";
+            changes += "\n- [`" + commit.sha.substring(0, 7) + "`](https://github.com/trap-client/trap-client/commit/" + commit.sha + ") *" + commit.commit.message + "*";
             hasChanges = true;
         }
         if (hasChanges) description += changes;
 
         if (success) {
-            description += "\n\n**Download:** [meteor-client-" + version + "-" + number + "](https://meteorclient.com/download?devBuild=" + number + ")";
+            description += "\n\n**Download:** [trap-client-" + version + "-" + number + "](https://github.com/trap-client/trap-client/releases/tag/" + number + ")";
         }
 
         const webhook = {
@@ -37,9 +37,9 @@ function send(version, number) {
             avatar_url: "https://meteorclient.com/icon.png",
             embeds: [
                 {
-                    title: "meteor client v" + version + " build #" + number,
+                    title: "trap client client v" + version + " build #" + number,
                     description: description,
-                    url: "https://meteorclient.com",
+                    url: "https://github.com/trap-client/trap-client",
                         color: success ? 2672680 : 13117480
                 }
             ]
@@ -57,18 +57,4 @@ if (success) {
 
     let form = new FormData();
     form.append("file", fs.createReadStream(jar));
-
-    axios.post("https://meteorclient.com/api/uploadDevBuild", form, {
-        headers: {
-            ...form.getHeaders(),
-            "Authorization": process.env.SERVER_TOKEN
-        }
-    }).then(res => {
-        send(res.data.version, res.data.number)
-    });
-}
-else {
-    axios.get("https://meteorclient.com/api/stats").then(res => {
-        send(res.data.dev_build_version, parseInt(res.data.devBuild) + 1)
-    });
 }
