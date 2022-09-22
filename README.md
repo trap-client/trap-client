@@ -36,7 +36,6 @@ Be sure to use the Enhancement label, You may also put suggestions in our discor
 Our Goals for this client
 - Add everything [Meteor](https://github.com/MeteorDevelopment/meteor-client) is missing / refusing to add
 - Let the community decide / suggest Features
-- Have cool Astolfo Pictures built in to the client
 - Get popbobs attention (Near impossible)
 
 ## Contributions
