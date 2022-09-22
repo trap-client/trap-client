@@ -41,7 +41,7 @@ jobs:
         if: ${{ failure() }}
         run: |
           cd .github/devbuilds
-          npm start ${{ github.ref_name }} https://api.github.com/repos/MeteorDevelopment/meteor-client/compare/${{ github.event.before }}...${{ github.event.after }} false
+          npm start ${{ github.ref_name }} https://api.github.com/repos/trap-client/trap-client/compare/${{ github.event.before }}...${{ github.event.after }} false
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
@@ -55,7 +55,7 @@ jobs:
       - name: Upload file & Discord webhook
         run: |
           cd .github/devbuilds
-          npm start ${{ github.ref_name }} https://api.github.com/repos/MeteorDevelopment/meteor-client/compare/${{ github.event.before }}...${{ github.event.after }} true
+          npm start ${{ github.ref_name }} https://api.github.com/repos/trap-client/trap-client/compare/${{ github.event.before }}...${{ github.event.after }} true
         env:
           SERVER_TOKEN: ${{ secrets.SERVER_TOKEN }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
