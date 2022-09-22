@@ -113,10 +113,7 @@ task javadocJar(type: Jar) {
 
 publishing {
     publications {
-        java(MavenPublication) {
-            artifactId = "meteor-client"
-            version = project.hasProperty("devbuild") ? (project.mod_version + "-SNAPSHOT") : project.mod_version
-
+        maven(MavenPublication) {
             artifact(remapJar) {
                 builtBy remapJar
             }
@@ -130,5 +127,5 @@ publishing {
             }
         }
     }
-
+}
   
