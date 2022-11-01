@@ -1,6 +1,6 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).
- * Copyright (c) Meteor Development.
+ * This file is part of the Trap Client distribution (https://github.com/trap-client/trap-client).
+ * Copyright (c) Vince#1145.
  */
 
 package vince.syshax.gui.themes.traphax.widgets.input;
@@ -8,7 +8,7 @@ package vince.syshax.gui.themes.traphax.widgets.input;
 import vince.syshax.gui.renderer.GuiRenderer;
 import vince.syshax.gui.themes.traphax.TrapGuiTheme;
 import vince.syshax.gui.themes.traphax.TrapHaxWidget;
-import vince.syshax.gui.themes.meteor.widgets.WMeteorLabel;
+import vince.syshax.gui.themes.traphax.widgets.WMeteorLabel;
 import vince.syshax.gui.utils.CharFilter;
 import vince.syshax.gui.widgets.WWidget;
 import vince.syshax.gui.widgets.containers.WContainer;

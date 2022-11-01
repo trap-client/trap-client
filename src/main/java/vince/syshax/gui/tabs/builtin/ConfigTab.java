@@ -1,18 +1,23 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).
- * Copyright (c) Meteor Development.
+ * This file is part of the Trap Client distribution (https://github.com/trap-client/trap-client).
+ * Copyright (c) Vince#1145.
  */
 
 package vince.syshax.gui.tabs.builtin;
 
+import vince.syshax.SYSHax;
 import vince.syshax.gui.GuiTheme;
 import vince.syshax.gui.tabs.Tab;
 import vince.syshax.gui.tabs.TabScreen;
 import vince.syshax.gui.tabs.WindowTabScreen;
+import vince.syshax.gui.tabs.screens.HeadScreen;
+import vince.syshax.gui.widgets.pressable.WButton;
 import vince.syshax.settings.Settings;
 import vince.syshax.systems.config.Config;
+import vince.syshax.systems.hud.screens.HudEditorScreen;
 import vince.syshax.utils.misc.NbtUtils;
 import vince.syshax.utils.render.prompts.YesNoPrompt;
+
 import net.minecraft.client.gui.screen.Screen;
 
 public class ConfigTab extends Tab {
@@ -72,12 +77,20 @@ public class ConfigTab extends Tab {
                         .id("long-command-prefix")
                         .show();
                 }
+
+
+
+
             });
         }
 
         @Override
         public void initWidgets() {
             add(theme.settings(settings)).expandX();
+            WButton HeadGuiButton = add(theme.button("Open Head Picker")).expandX().widget();
+            HeadGuiButton.action = () -> SYSHax.mc.setScreen(new HeadScreen(theme));
+
+
         }
 
         @Override

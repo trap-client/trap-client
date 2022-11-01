@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "name": "Trap Client",
   "id": "trap-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Based utility mod.",
   "authors": [
     "Vince",
-    "SYS"
+    "Trir"
 
   ],
   "contact": {

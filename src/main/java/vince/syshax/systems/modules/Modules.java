@@ -1,6 +1,6 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).
- * Copyright (c) Meteor Development.
+ * This file is part of the Trap Client distribution (https://github.com/trap-client/trap-client).
+ * Copyright (c) Vince#1145.
  */
 
 package vince.syshax.systems.modules;
@@ -463,6 +463,8 @@ public class Modules extends System<Modules> {
         add(new Jesus());
         add(new LongJump());
         add(new NoFall());
+        add(new FastBridge());
+        add(new EntityFly());
         add(new NoSlow());
         add(new Parkour());
         add(new ReverseStep());
@@ -485,7 +487,7 @@ public class Modules extends System<Modules> {
         add(new NewChunks());
         add(new Breadcrumbs());
         add(new BreakIndicators());
-
+        add(new RenderTweaks());
         add(new CameraTweaks());
         add(new Chams());
         add(new CityESP());

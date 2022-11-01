@@ -1,6 +1,6 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).
- * Copyright (c) Meteor Development.
+ * This file is part of the Trap Client distribution (https://github.com/trap-client/trap-client).
+ * Copyright (c) Vince#1145.
  */
 
 package vince.syshax;
@@ -103,6 +103,8 @@ public class SYSHax implements ClientModInitializer {
         // Load systems
         Systems.init();
 
+
+
         // Subscribe after systems are loaded
         EVENT_BUS.subscribe(this);
 
@@ -128,6 +130,8 @@ public class SYSHax implements ClientModInitializer {
 
     }
 
+
+
     @EventHandler
     private void onTick(TickEvent.Post event) {
         if (mc.currentScreen == null && mc.getOverlay() == null && KeyBinds.OPEN_COMMANDS.wasPressed()) {
@@ -147,6 +151,7 @@ public class SYSHax implements ClientModInitializer {
     private void onMouseButton(MouseButtonEvent event) {
         if (event.action == KeyAction.Press && KeyBinds.OPEN_GUI.matchesMouse(event.button)) {
             openGui();
+
         }
     }
 

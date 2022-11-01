@@ -1,6 +1,6 @@
 /*
- * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).
- * Copyright (c) Meteor Development.
+ * This file is part of the Trap Client distribution (https://github.com/trap-client/trap-client).
+ * Copyright (c) Vince#1145.
  */
 
 package vince.syshax.utils;
@@ -77,6 +77,7 @@ public class Utils {
         if (screenToOpen != null && SYSHax.mc.currentScreen == null) {
             SYSHax.mc.setScreen(screenToOpen);
             screenToOpen = null;
+
         }
     }
 
