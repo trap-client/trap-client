@@ -11,8 +11,7 @@
 </div>
 
 
-Meteor mods dont work with trap client, Mod Developers if you want to port your mod to trap client
-A tutorial will be out soon!
+
 
 
 
@@ -30,7 +29,10 @@ Be sure to use the Enhancement label, You may also put suggestions in our discor
 
 
 
-
+## Info
+Dont You Hate Having to Have So Many Mods in your mods Folder For Addons Etc
+We are actively working to add Modules From Addons Into Trap Client
+Addons Support will Prob never be a thing
 
 ## Goal
 Our Goals for this client
