@@ -64,7 +64,7 @@ The [Meteor Team](https://github.com/meteordevelopment) for [Meteor](https://git
 
 The [AntiCope Team](https://github.com/AntiCope) for [Meteor-rejects](https://github.com/AntiCope/meteor-rejects)
 
-Joe
+
 
 
 ## Licensing
