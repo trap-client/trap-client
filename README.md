@@ -5,7 +5,7 @@
 
 <h1 align="center">Trap Client</h1>
 <p align="center">A Client based of meteor client</p>
-<p align="center"><href="https://discord.gg/AKmfGw8599">Join Our Discord</p>
+
 <div align="center">
     
 </div>
@@ -13,7 +13,7 @@
 
 
 
-
+-----------------------------------------------------------------------[Join our discord](https://discord.gg/AKmfGw8599)-----------------------------------------------
 
 ## Faq
 "Can you add This Feature/Module?", If you have a suggestion you can submit it [Here](https://github.com/trap-client/trap-client/issues) -
