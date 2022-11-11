@@ -5,7 +5,7 @@
 
 <h1 align="center">Trap Client</h1>
 <p align="center">A Client based of meteor client</p>
-
+<p align="center"><href="https://discord.gg/AKmfGw8599">Join Our Discord</p>
 <div align="center">
     
 </div>
@@ -38,7 +38,7 @@ Addons Support will Prob never be a thing
 Our Goals for this client
 - Add everything [Meteor](https://github.com/MeteorDevelopment/meteor-client) is missing / refusing to add
 - Let the community decide / suggest Features
-- Get popbobs attention (Near impossible)
+
 
 ## Contributions
 We will review and help with all reasonable pull requests as long as the guidelines below are met.
