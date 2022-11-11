@@ -12,8 +12,8 @@
 
 
 
-
------------------------------------------------------------------------[Join our discord](https://discord.gg/AKmfGw8599)-----------------------------------------------
+## Support
+[Join our discord](https://discord.gg/AKmfGw8599)
 
 ## Faq
 "Can you add This Feature/Module?", If you have a suggestion you can submit it [Here](https://github.com/trap-client/trap-client/issues) -
