@@ -46,7 +46,7 @@ dependencies {
 	// Compat fixes
     modCompileOnly fabricApi.module("fabric-renderer-indigo", project.fapi_version)
     modCompileOnly("me.jellysquid.mods:sodium-fabric:${project.sodium_version}") { transitive = false }
-    modCompileOnly("io.vram:canvas-fabric-mc119:1.0.+") { transitive = false }
+    modCompileOnly("io.vram:canvas-fabric-mc119:3.0.+") { transitive = false }
 
 	// Baritone (https://github.com/MeteorDevelopment/baritone)
     modInclude "baritone:fabric:${project.minecraft_version}-SNAPSHOT"
